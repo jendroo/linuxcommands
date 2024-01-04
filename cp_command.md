@@ -1,11 +1,6 @@
 
 # About <mark>CP</mark> command in Linux Terminal 
 ---
-## Syntax
-```
-cp textfile.txt ~/Documents/folder
-```
----
 ## Description
 
 Copy **SOURCE** to **DEST**, or multiple **SOURCE(s)** to **DIRECTORY**.
@@ -26,8 +21,18 @@ or
 ```
 cp [OPTION]... -t DIRECTORY SOURCE...
 ```
+---
+## Options
+
+`uname -a` or `--all`  *(print all information, in the following order)*
+
+`uname -s` or `--kernel-name` *(print the kernel name)*
+
+`uname -r` or `--kernel-release` *(print the kernel release)*
+
+`uname -v` or `--kernel-version` *(print the kernel version)*
 
 ---
 ## References 
 
-[Youtube](https://www.youtube.com/watch?v=zT_FPjiRexQ) How to in Video Tutorial, check it out!
+> Terminal linux command **`cp`** [Youtube](https://www.youtube.com/watch?v=zT_FPjiRexQ) How to in Video Tutorial, check it out!
