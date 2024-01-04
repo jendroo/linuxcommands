@@ -1,29 +1,38 @@
 
-# About <mark>UNAME</mark> command in Linux Terminal 
+# About <mark>APT-GET</mark> command in Linux Terminal 
 ---
 
 ## Description
 
-Print certain system information.
+`apt-get` is a command line interface for retrieval of packages
+and information about them from authenticated sources and
+for installation, upgrade and removal of packages together
+with their dependencies.
 
 ---
 ## Usage 
 
 ```
-uname [OPTION]...
+apt-get [options] command
+```
+```
+apt-get [options] install|remove pkg1 [pkg2 ...]
+```
+```
+apt-get [options] source pkg1 [pkg2 ...]
 ```
 ---
 ## Options
 
-`uname -a` or `--all`  *(print all information, in the following order)*
+`apt-get update`  *(Retrieve new lists of packages)*
 
-`uname -s` or `--kernel-name` *(print the kernel name)*
+`apt-get upgrade` *(Perform an upgrade)*
 
-`uname -r` or `--kernel-release` *(print the kernel release)*
+`apt-get install` *(Install new packages (pkg is libc6 not libc6.deb))*
 
-`uname -v` or `--kernel-version` *(print the kernel version)*
+`apt-get remove` *(Remove packages)*
 
 ---
 ## References 
 
-> Terminal linux command **`uname`** [Youtube](https://www.youtube.com/watch?v=NRV4PpyiSeQ) How to Video, check it out!
+> Terminal linux command **`apt-get`** [Youtube](https://www.youtube.com/watch?v=Fcun3XGUnks) How to Video, check it out!

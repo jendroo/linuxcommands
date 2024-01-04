@@ -4,7 +4,7 @@
 
 ## Description
 
-Print certain system information.
+`uname` is a command to print certain system information.
 
 ---
 ## Usage 

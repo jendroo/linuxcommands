@@ -3,7 +3,7 @@
 ---
 ## Description
 
-Copy **SOURCE** to **DEST**, or multiple **SOURCE(s)** to **DIRECTORY**.
+`cp` is command to copy **SOURCE** to **DEST**, or multiple **SOURCE(s)** to **DIRECTORY**.
 
 ---
 ## Usage 
