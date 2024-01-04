@@ -24,15 +24,15 @@ cp [OPTION]... -t DIRECTORY SOURCE...
 ---
 ## Options
 
-`uname -a` or `--all`  *(print all information, in the following order)*
+`cp -a` or `--archive`  *(same as -dR --preserve=all)*
 
-`uname -s` or `--kernel-name` *(print the kernel name)*
+`cp -b` or `--backup` *(but does not accept an argument)*
 
-`uname -r` or `--kernel-release` *(print the kernel release)*
+`cp -i` or `--interactive` *(prompt before overwrite (overrides a previous -n option))*
 
-`uname -v` or `--kernel-version` *(print the kernel version)*
+`cp -s` or `--symbolic-link` *(make symbolic links instead of copying)*
 
 ---
 ## References 
 
-> Terminal linux command **`cp`** [Youtube](https://www.youtube.com/watch?v=zT_FPjiRexQ) How to in Video Tutorial, check it out!
+> Terminal linux command **`cp`** [Youtube](https://www.youtube.com/watch?v=zT_FPjiRexQ) How to Video, check it out!

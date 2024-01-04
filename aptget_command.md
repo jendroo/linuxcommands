@@ -1,33 +1,29 @@
 
-# About <mark>CP</mark> command in Linux Terminal 
+# About <mark>UNAME</mark> command in Linux Terminal 
 ---
-## Syntax
-```
-cp textfile.txt ~/Documents/folder
-```
----
+
 ## Description
 
-Copy **SOURCE** to **DEST**, or multiple **SOURCE(s)** to **DIRECTORY**.
+Print certain system information.
 
 ---
 ## Usage 
 
 ```
-cp [OPTION]... [-T] SOURCE DEST
+uname [OPTION]...
 ```
-or 
-```
-p [OPTION]... SOURCE... DIRECTORY
+---
+## Options
 
-```
-or 
+`uname -a` or `--all`  *(print all information, in the following order)*
 
-```
-cp [OPTION]... -t DIRECTORY SOURCE...
-```
+`uname -s` or `--kernel-name` *(print the kernel name)*
+
+`uname -r` or `--kernel-release` *(print the kernel release)*
+
+`uname -v` or `--kernel-version` *(print the kernel version)*
 
 ---
 ## References 
 
-[Youtube](https://www.youtube.com/watch?v=zT_FPjiRexQ) How to in Video Tutorial, check it out!
+> Terminal linux command **`uname`** [Youtube](https://www.youtube.com/watch?v=NRV4PpyiSeQ) How to Video, check it out!
