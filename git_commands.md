@@ -1,22 +1,29 @@
-# Git
+# pwd
 
 ## Explain 
- to track changes in source code
+  The `pwd` command stands for "print working directory," and it is used in Unix-like operating systems to display the current working directory. 
 
----
+
 ## Example
- - `git clone ` to clone from Repo
- - `git branch name of branch` to 
- - `git switch` to switch branch
- - `git push origin` to push to origin 
----
+```
+ - `pwd`
+    /home/user/documents
+```
+
 ## Usage
- - to clone a Repo
- - Make branch
- - switch branch
- - 
+ - Open a terminal or command      prompt.
+
+ - Type pwd and press Enter to display the current working directory.
 ## Reference
-  
+  ```
+ The pwd command is a standard command in Unix-like operating systems, including Linux and macOS. Its functionality is specified by the POSIX standard. You can refer to the manual pages for pwd by using the following command:
+
+  ```
+    $ man `pwd`
+
+
+ for more see:
+ 
  [Git cheat sheet](https://education.github.com/git-cheat-sheet-education.pdf)
 
 
